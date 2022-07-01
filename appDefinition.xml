@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>configuracaoDados</id>
+   <version></version>
+   <name>Configuração de Dados</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
