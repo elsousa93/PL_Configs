@@ -1,20 +1,132 @@
 {
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [{
-            "className": "org.joget.apps.userview.lib.HtmlPage",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
+                    "customId": "welcome",
+                    "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
+                    "label": "Welcome"
+                }
+            }],
             "properties": {
-                "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
-                "customId": "welcome",
-                "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
-                "label": "Welcome"
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
             }
-        }],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "adicionarOpcaoLV",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "adicionarOpcaoLV_crud",
+                        "datalistId": "list_listasValores",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Valor editado com sucesso!",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "adicionarOpcaoLV",
+                        "enableOffline": "",
+                        "id": "5D557D48556E4D6FA9E7245EBD9FFC2D",
+                        "keyName": "",
+                        "label": "Editar listas de valores",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "list-deleteButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "nome_campo",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "value",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "label",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "disabledDelete": "",
+                        "formDefId": "adicionarOpcaoLV",
+                        "id": "D52AA72EC3714ECEAE67D8315F1AFB41",
+                        "key": "0",
+                        "label": "Importar listas de valores",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados importados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-DEF85C2F7AC044BFB4938FC05CFC1D0F",
+                "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de dados"
+            }
         }
-    }],
+    ],
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
@@ -25,8 +137,6 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
-        "mobileCacheEnabled": "",
-        "mobileViewDisabled": "",
         "permission": {
             "className": "",
             "properties": {}
@@ -39,6 +149,8 @@
                 "buttonTextColor": "WHITE",
                 "fontColor": "WHITE",
                 "menuFontColor": "BLACK",
+                "mobileCacheEnabled": "",
+                "mobileViewDisabled": "",
                 "primaryColor": "INDIGO",
                 "themeScheme": "light"
             }
