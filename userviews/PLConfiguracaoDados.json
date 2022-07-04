@@ -133,7 +133,7 @@
         "footerMessage": "Powered by Joget",
         "id": "PLConfiguracaoDados",
         "logoutText": "Logout",
-        "name": "PL - Olimpo - Configuração de dados",
+        "name": "PL - Configuração de dados",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
