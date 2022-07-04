@@ -33,26 +33,20 @@
                         "id": "nome_campo",
                         "label": "Nome do campo",
                         "multiple": "",
-                        "options": [
-                            {
-                                "grouping": "",
-                                "label": "",
-                                "value": ""
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Tipo de documento",
-                                "value": "tipo_doc"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Tipo de Processo",
-                                "value": "tipo_processo"
-                            }
-                        ],
+                        "options": [],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "c_nome_campo = 'nome_campo'",
+                                "formDefId": "adicionaOpcaoListaValores",
+                                "groupingColumn": "",
+                                "idColumn": "value",
+                                "labelColumn": "label",
+                                "useAjax": ""
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
