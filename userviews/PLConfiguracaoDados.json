@@ -80,22 +80,22 @@
                         "checkUTF8": "",
                         "columnMapping": [
                             {
-                                "col": "1",
+                                "col": "0",
                                 "field": "id_valor",
                                 "formatted": "true"
                             },
                             {
-                                "col": "2",
+                                "col": "1",
                                 "field": "nome_campo",
                                 "formatted": "true"
                             },
                             {
-                                "col": "3",
+                                "col": "2",
                                 "field": "value",
                                 "formatted": "true"
                             },
                             {
-                                "col": "4",
+                                "col": "3",
                                 "field": "label",
                                 "formatted": "true"
                             }
@@ -109,7 +109,7 @@
                         "disabledDelete": "",
                         "formDefId": "adicionaOpcaoListaValores",
                         "id": "D52AA72EC3714ECEAE67D8315F1AFB41",
-                        "key": "1",
+                        "key": "0",
                         "label": "Importar listas de valores",
                         "messageOnError": "Ocorreu um erro no upload do ficheiro.",
                         "messageOnSuccess": "Dados editados com sucesso!",
