@@ -80,22 +80,22 @@
                         "checkUTF8": "",
                         "columnMapping": [
                             {
-                                "col": "0",
-                                "field": "id",
-                                "formatted": "true"
-                            },
-                            {
                                 "col": "1",
-                                "field": "nome_campo",
+                                "field": "id_valor",
                                 "formatted": "true"
                             },
                             {
                                 "col": "2",
-                                "field": "value",
+                                "field": "nome_campo",
                                 "formatted": "true"
                             },
                             {
                                 "col": "3",
+                                "field": "value",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
                                 "field": "label",
                                 "formatted": "true"
                             }
@@ -105,14 +105,14 @@
                         "customCsvQuote": "",
                         "customFooter": "",
                         "customHeader": "",
-                        "customId": "",
+                        "customId": "importar_listas",
                         "disabledDelete": "",
                         "formDefId": "adicionaOpcaoListaValores",
                         "id": "D52AA72EC3714ECEAE67D8315F1AFB41",
-                        "key": "0",
+                        "key": "1",
                         "label": "Importar listas de valores",
                         "messageOnError": "Ocorreu um erro no upload do ficheiro.",
-                        "messageOnSuccess": "Dados importados com sucesso!",
+                        "messageOnSuccess": "Dados editados com sucesso!",
                         "redirectUrl": "",
                         "rowStart": "1",
                         "userviewCacheDuration": "20",
