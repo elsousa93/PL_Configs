@@ -100,6 +100,18 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "Text Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
