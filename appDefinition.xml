@@ -19,6 +19,14 @@
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
+      <appResource>
+         <id>PL_Full_Symbol_on_Green_Background-removeb.png</id>
+         <appId>configuracaoDados</appId>
+         <appVersion>1</appVersion>
+         <filesize>39906</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
    </resourceList>
    <license>mFm0b9Y3Rqzk+mb44XddTqQLS+VJrhWaD63f5HXPoljk03o18qUfYoH0XekvhXkSqk/YO5RB8G8=</license>
 </appDefinition>
