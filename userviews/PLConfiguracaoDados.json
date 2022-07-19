@@ -133,7 +133,7 @@
         "footerMessage": "Powered by Joget",
         "id": "PLConfiguracaoDados",
         "logoutText": "Logout",
-        "name": "PL - Configuração de dados",
+        "name": "Configuração de dados",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
