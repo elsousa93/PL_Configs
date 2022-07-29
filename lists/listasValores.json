@@ -50,7 +50,15 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "id": "filter_0",
+        "label": "Nome do campo",
+        "name": "nome_campo",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        }
+    }],
     "id": "listasValores",
     "name": "Listas de Valores",
     "order": "",
