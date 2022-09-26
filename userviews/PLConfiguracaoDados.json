@@ -135,11 +135,16 @@
                     "columnMapping": [
                         {
                             "col": "0",
-                            "field": "nome",
+                            "field": "Id_feriado",
                             "formatted": "true"
                         },
                         {
                             "col": "1",
+                            "field": "nome",
+                            "formatted": "true"
+                        },
+                        {
+                            "col": "2",
                             "field": "data",
                             "formatted": "true"
                         }
@@ -153,7 +158,7 @@
                     "disabledDelete": "",
                     "formDefId": "feriados",
                     "id": "077CF77EDAB34C989C9B5BDFEFFB5F51",
-                    "key": "",
+                    "key": "0",
                     "label": "Importar Feriados",
                     "messageOnError": "",
                     "messageOnSuccess": "",
