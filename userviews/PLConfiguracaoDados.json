@@ -190,42 +190,67 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "sla",
-                        "id": "861ECA554B584FA4807C43A166419189",
-                        "keyName": "",
-                        "label": "Form",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
                 "id": "category-1DAEFB9141AE4FB98E3F08A8F7F280B2",
                 "label": "Configuração de Feriados"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.CrudMenu",
+                "properties": {
+                    "add-afterSaved": "list",
+                    "add-cancelButtonLabel": "",
+                    "add-customFooter": "",
+                    "add-customHeader": "",
+                    "add-messageShowAfterComplete": "",
+                    "add-saveButtonLabel": "",
+                    "addFormId": "",
+                    "buttonPosition": "bottomLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customId": "",
+                    "datalistId": "listaSLA",
+                    "edit-afterSaved": "list",
+                    "edit-allowRecordTraveling": "",
+                    "edit-backButtonLabel": "",
+                    "edit-customFooter": "",
+                    "edit-customHeader": "",
+                    "edit-firstButtonLabel": "",
+                    "edit-lastButtonLabel": "",
+                    "edit-messageShowAfterComplete": "",
+                    "edit-moreActions": [],
+                    "edit-nextButtonLabel": "",
+                    "edit-prevButtonLabel": "",
+                    "edit-readonly": "",
+                    "edit-readonlyLabel": "",
+                    "edit-saveButtonLabel": "",
+                    "editFormId": "editSLA",
+                    "enableOffline": "",
+                    "id": "534D1BFB3FA94BBE8714ABDB961CB6B3",
+                    "keyName": "",
+                    "label": "Gerir SLA",
+                    "list-customFooter": "",
+                    "list-customHeader": "",
+                    "list-editLinkLabel": "",
+                    "list-editLinkTarget": "",
+                    "list-moreActions": [],
+                    "list-newButtonLabel": "",
+                    "list-newLinkTarget": "",
+                    "list-showDeleteButton": "",
+                    "rowCount": "",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-C5D67951CE90465D9E341C2BDEA28178",
+                "label": "Configurar SLA"
             }
         }
     ],
