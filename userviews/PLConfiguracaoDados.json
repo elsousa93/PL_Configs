@@ -146,7 +146,7 @@
                         {
                             "col": "2",
                             "field": "data",
-                            "formatted": "true"
+                            "formatted": "false"
                         }
                     ],
                     "corfirmation": "",
