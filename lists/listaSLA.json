@@ -21,6 +21,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_2",
+            "label": "unidade",
+            "name": "unidade",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "SLA",
             "name": "sla",
