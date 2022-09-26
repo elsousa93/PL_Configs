@@ -10,7 +10,7 @@
                     "properties": {
                         "encryption": "",
                         "id": "Id_feriado",
-                        "label": "Id",
+                        "label": "Id Feriado",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
