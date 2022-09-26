@@ -42,8 +42,8 @@
     "hidePageSize": "",
     "id": "listaSLA",
     "name": "Lista de SLA",
-    "order": "",
-    "orderBy": "nome",
+    "order": "2",
+    "orderBy": "unidade",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "responsiveView": [
