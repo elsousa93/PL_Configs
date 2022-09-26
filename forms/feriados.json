@@ -31,7 +31,7 @@
                     "properties": {
                         "allowManual": "",
                         "currentDateAs": "",
-                        "dataFormat": "yyyy-MM-dd",
+                        "dataFormat": "dd/MM/yyyy",
                         "datePickerType": "",
                         "endDateFieldId": "",
                         "format": "",
