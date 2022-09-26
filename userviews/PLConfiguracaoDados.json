@@ -125,6 +125,49 @@
                 "id": "category-DEF85C2F7AC044BFB4938FC05CFC1D0F",
                 "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de Listas de Valores"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                "properties": {
+                    "checkUTF8": "",
+                    "columnMapping": [
+                        {
+                            "col": "0",
+                            "field": "nome",
+                            "formatted": "true"
+                        },
+                        {
+                            "col": "1",
+                            "field": "data",
+                            "formatted": "true"
+                        }
+                    ],
+                    "corfirmation": "",
+                    "customCsvDelimiter": "",
+                    "customCsvQuote": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "disabledDelete": "",
+                    "formDefId": "feriados",
+                    "id": "077CF77EDAB34C989C9B5BDFEFFB5F51",
+                    "key": "",
+                    "label": "Importar Feriados",
+                    "messageOnError": "",
+                    "messageOnSuccess": "",
+                    "redirectUrl": "",
+                    "rowStart": "1",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "userviewKey": ""
+                }
+            }],
+            "properties": {
+                "id": "category-1DAEFB9141AE4FB98E3F08A8F7F280B2",
+                "label": "Configuração de Feriados"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.Userview",
