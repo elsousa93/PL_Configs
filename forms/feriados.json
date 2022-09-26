@@ -52,7 +52,7 @@
                     "properties": {
                         "allowManual": "",
                         "currentDateAs": "",
-                        "dataFormat": "dd/MM/yyyy",
+                        "dataFormat": "yyyy-MM-dd",
                         "datePickerType": "",
                         "endDateFieldId": "",
                         "format": "",
