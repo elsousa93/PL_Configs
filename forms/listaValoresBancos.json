@@ -73,11 +73,11 @@
                                 "addEmptyOption": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "c_nome_campo = 'nivel_1'",
+                                "extraCondition": "c_nome_campo = 'nivel_2'",
                                 "formDefId": "listaValoresBancos",
                                 "groupingColumn": "",
                                 "idColumn": "",
-                                "labelColumn": "nivel_1",
+                                "labelColumn": "nivel_2",
                                 "useAjax": ""
                             }
                         },
@@ -101,8 +101,18 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "c_nome_campo = 'nivel_3'",
+                                "formDefId": "listaValoresBancos",
+                                "groupingColumn": "",
+                                "idColumn": "",
+                                "labelColumn": "nivel_3",
+                                "useAjax": ""
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
