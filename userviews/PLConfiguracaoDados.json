@@ -148,17 +148,17 @@
                             {
                                 "col": "4",
                                 "field": "nivel_4",
-                                "formatted": "false"
+                                "formatted": "true"
                             },
                             {
                                 "col": "5",
                                 "field": "nivel_5",
-                                "formatted": "false"
+                                "formatted": "true"
                             },
                             {
                                 "col": "6",
                                 "field": "nivel_6",
-                                "formatted": "false"
+                                "formatted": "true"
                             }
                         ],
                         "corfirmation": "",
