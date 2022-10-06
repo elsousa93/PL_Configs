@@ -139,11 +139,11 @@
                                 "addEmptyOption": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "c_nome_campo = 'nivel_1'",
+                                "extraCondition": "c_nome_campo = 'nivel_4'",
                                 "formDefId": "listaValoresBancos",
                                 "groupingColumn": "",
                                 "idColumn": "",
-                                "labelColumn": "nivel_1",
+                                "labelColumn": "nivel_4",
                                 "useAjax": ""
                             }
                         },
@@ -172,11 +172,11 @@
                                 "addEmptyOption": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "c_nome_campo = 'nivel_1'",
+                                "extraCondition": "c_nome_campo = 'nivel_5'",
                                 "formDefId": "listaValoresBancos",
                                 "groupingColumn": "",
                                 "idColumn": "",
-                                "labelColumn": "nivel_1",
+                                "labelColumn": "nivel_5",
                                 "useAjax": ""
                             }
                         },
@@ -205,11 +205,11 @@
                                 "addEmptyOption": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "c_nome_campo = 'nivel_1'",
+                                "extraCondition": "c_nome_campo = 'nivel_6'",
                                 "formDefId": "listaValoresBancos",
                                 "groupingColumn": "",
                                 "idColumn": "",
-                                "labelColumn": "nivel_1",
+                                "labelColumn": "nivel_6",
                                 "useAjax": ""
                             }
                         },
