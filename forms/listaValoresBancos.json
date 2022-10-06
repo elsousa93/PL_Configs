@@ -75,7 +75,7 @@
                                 "emptyLabel": "",
                                 "extraCondition": "c_nome_campo = 'nivel_2'",
                                 "formDefId": "listaValoresBancos",
-                                "groupingColumn": "",
+                                "groupingColumn": "nivel_1",
                                 "idColumn": "",
                                 "labelColumn": "nivel_2",
                                 "useAjax": ""
