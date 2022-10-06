@@ -35,8 +35,18 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "c_nome_campo = \"nivel_1\"",
+                                "formDefId": "listaValoresBancos",
+                                "groupingColumn": "",
+                                "idColumn": "",
+                                "labelColumn": "nivel_1",
+                                "useAjax": ""
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
