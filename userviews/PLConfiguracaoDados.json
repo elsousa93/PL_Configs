@@ -119,6 +119,67 @@
                         "userviewCacheScope": "",
                         "userviewKey": ""
                     }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id_valor_campo",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "nivel_1",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "nivel_2",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "nivel_3",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
+                                "field": "nivel_4",
+                                "formatted": "false"
+                            },
+                            {
+                                "col": "5",
+                                "field": "nivel_5",
+                                "formatted": "false"
+                            },
+                            {
+                                "col": "6",
+                                "field": "nivel_6",
+                                "formatted": "false"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "importar_listas_bancos",
+                        "disabledDelete": "",
+                        "formDefId": "listaValoresBancos",
+                        "id": "F031794B85084DEFA3070AB8FC3E27A6",
+                        "key": "0",
+                        "label": "Importar listas de valores bancos",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados editados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
                 }
             ],
             "properties": {
