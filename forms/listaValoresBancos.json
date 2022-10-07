@@ -62,7 +62,7 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "controlField": "",
+                        "controlField": "nivel_1",
                         "id": "nivel_2",
                         "label": "Código Zona",
                         "multiple": "",
@@ -78,7 +78,7 @@
                                 "groupingColumn": "nivel_1",
                                 "idColumn": "",
                                 "labelColumn": "nivel_2",
-                                "useAjax": ""
+                                "useAjax": "true"
                             }
                         },
                         "readonly": "",
@@ -222,6 +222,16 @@
                         },
                         "value": "",
                         "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "id": "field8",
+                        "label": "Select Box",
+                        "multiple": "False",
+                        "readonly": "False",
+                        "readonlyLabel": "False"
                     }
                 }
             ],
