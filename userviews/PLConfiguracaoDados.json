@@ -219,7 +219,7 @@
                         "list-abortRelatedRunningProcesses": "",
                         "list-confirmation": "",
                         "list-customFooter": "",
-                        "list-customHeader": "<script>\n$(document).ready(function(){\n     $(\"#filters_listaValoresBancos input[type = submit]\").val(\"Filtrar\");\n});\n    \n<\/script>",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n     $(\"#filters_listaValoresBancos input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
                         "list-deleteButtonLabel": "",
                         "list-deleteFiles": "",
                         "list-deleteGridData": "",
