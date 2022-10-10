@@ -351,7 +351,7 @@
                     "keyName": "",
                     "label": "Gerir SLA",
                     "list-customFooter": "",
-                    "list-customHeader": "",
+                    "list-customHeader": "<script>\n$(document).ready(function(){\n    $(\"#filters_listaSLA input[type = submit]\").val(\"Mostrar\");\n});\n    \n<\/script>",
                     "list-editLinkLabel": "",
                     "list-editLinkTarget": "",
                     "list-moreActions": [],
