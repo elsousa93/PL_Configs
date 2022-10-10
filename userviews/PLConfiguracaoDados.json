@@ -294,7 +294,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "",
+                        "customHeader": "<script>\n$(document).ready(function(){\n    $(\"#filters_listaFeriados input[type = submit]\").val(\"Filtrar\");\n});\n    \n<\/script>",
                         "customId": "",
                         "datalistId": "listaFeriados",
                         "enableOffline": "",
