@@ -57,7 +57,7 @@
                         "list-abortRelatedRunningProcesses": "",
                         "list-confirmation": "",
                         "list-customFooter": "",
-                        "list-customHeader": "<script>\n    $(\"#filters_listaValores input[type = submit]\").val(\"Filtrar\");\n    \n<\/script>",
+                        "list-customHeader": "<script>\n    $(\"#filters_listasValores input[type = submit]\").val(\"Filtrar\");\n    \n<\/script>",
                         "list-deleteButtonLabel": "",
                         "list-deleteFiles": "",
                         "list-deleteGridData": "",
