@@ -119,7 +119,16 @@
                         "userviewCacheScope": "",
                         "userviewKey": ""
                     }
-                },
+                }
+            ],
+            "properties": {
+                "id": "category-DEF85C2F7AC044BFB4938FC05CFC1D0F",
+                "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de Listas de Valores"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
                 {
                     "className": "org.joget.plugin.enterprise.CsvImportMenu",
                     "properties": {
@@ -168,8 +177,8 @@
                         "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n        $(\"label:contains('Import new record only')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar apenas novos dados');\n        $(\"label:contains('Import new record or update existing record')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar novos dados ou atualizar os já existentes');\n        $(\"label:contains('Delete record')\").html('<input type=\"radio\" value=\"DELETE\" name=\"mode\"><i><\/i>Apagar dados');\n        $(\"input[id='submit']\").val(\"IMPORTAR\");\n        $(\"input[id='csvImportFile']\").css('display','none');\n        $(\"div[class='form-cell']\").first().html('<div class=\"form-cell\" style=\"margin-bottom: 10px;\"><label for=\"csvImportFile\" class=\"label upload\">Selecionar Ficheiro<\/label><label class=\"btn btn-primary\" id=\"file-upload-label\">ESCOLHER FICHEIRO<input id=\"csvImportFile\" type=\"file\" style=\"display: none;\" name=\"csvImportFile\"><\/label><label for=\"csvImportFile\" id=\"csvImportFileLabel\" style=\"margin-left: 10px;\"><\/label><\/div>');\n        \n        $(\"input[id='csvImportFile']\").change(function() {\n            \n            const filename = this.files[0].name;\n            \n            document.getElementById(\"csvImportFileLabel\").textContent = filename;\n        });\n        \n    });\n    \n    \n<\/script>",
                         "customId": "importar_listas_banco_bcp",
                         "disabledDelete": "",
-                        "formDefId": "listaValoresBancos",
-                        "id": "F031794B85084DEFA3070AB8FC3E27A6",
+                        "formDefId": "listaValoresBancoBCP",
+                        "id": "B0CC1D8EFE9B42C9853BABB0F83D3278",
                         "key": "0",
                         "label": "Importar listas de valores banco BCP",
                         "messageOnError": "Ocorreu um erro no upload do ficheiro.",
@@ -190,13 +199,13 @@
                         "add-customHeader": "",
                         "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
                         "add-saveButtonLabel": "",
-                        "addFormId": "listaValoresBancos",
+                        "addFormId": "",
                         "buttonPosition": "bottomLeft",
                         "cacheAllLinks": "",
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customId": "adicionarOpcaoLVBBCP_crud",
-                        "datalistId": "listaValoresBancos",
+                        "datalistId": "listaValoresBancoBCP",
                         "edit-afterSaved": "list",
                         "edit-allowRecordTraveling": "",
                         "edit-backButtonLabel": "",
@@ -211,11 +220,122 @@
                         "edit-readonly": "",
                         "edit-readonlyLabel": "",
                         "edit-saveButtonLabel": "",
-                        "editFormId": "listaValoresBancos",
+                        "editFormId": "",
                         "enableOffline": "",
-                        "id": "6C1EDD82396B4420A85940C32BE7F5C3",
+                        "id": "6525836A631D4C8C83E3ADE6A5FB563C",
                         "keyName": "",
                         "label": "Editar listas de valores banco BCP",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n     $(\"#filters_listaValoresBancos input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
+                        "list-deleteButtonLabel": "APAGAR",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "EDITAR",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "NOVO",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id_valor_campo",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "nivel_1",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "nivel_2",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "nivel_3",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
+                                "field": "nivel_4",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "5",
+                                "field": "nivel_5",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n        $(\"label:contains('Import new record only')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar apenas novos dados');\n        $(\"label:contains('Import new record or update existing record')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar novos dados ou atualizar os já existentes');\n        $(\"label:contains('Delete record')\").html('<input type=\"radio\" value=\"DELETE\" name=\"mode\"><i><\/i>Apagar dados');\n        $(\"input[id='submit']\").val(\"IMPORTAR\");\n        $(\"input[id='csvImportFile']\").css('display','none');\n        $(\"div[class='form-cell']\").first().html('<div class=\"form-cell\" style=\"margin-bottom: 10px;\"><label for=\"csvImportFile\" class=\"label upload\">Selecionar Ficheiro<\/label><label class=\"btn btn-primary\" id=\"file-upload-label\">ESCOLHER FICHEIRO<input id=\"csvImportFile\" type=\"file\" style=\"display: none;\" name=\"csvImportFile\"><\/label><label for=\"csvImportFile\" id=\"csvImportFileLabel\" style=\"margin-left: 10px;\"><\/label><\/div>');\n        \n        $(\"input[id='csvImportFile']\").change(function() {\n            \n            const filename = this.files[0].name;\n            \n            document.getElementById(\"csvImportFileLabel\").textContent = filename;\n        });\n        \n    });\n    \n    \n<\/script>",
+                        "customId": "importar_listas_banco_mtg",
+                        "disabledDelete": "",
+                        "formDefId": "listaValoresBancoMTG",
+                        "id": "3A02BFC8FF444BBE94A6B52CBD19F00F",
+                        "key": "0",
+                        "label": "Importar listas de valores banco MTG",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados editados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "adicionarOpcaoLVBMTG_crud",
+                        "datalistId": "listaValoresBancoMTG",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Valor editado com sucesso!",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "",
+                        "enableOffline": "",
+                        "id": "741F437DCBF7455884D200F8492A233C",
+                        "keyName": "",
+                        "label": "Editar listas de valores banco MTG",
                         "list-abortRelatedRunningProcesses": "",
                         "list-confirmation": "",
                         "list-customFooter": "",
@@ -238,8 +358,8 @@
                 }
             ],
             "properties": {
-                "id": "category-DEF85C2F7AC044BFB4938FC05CFC1D0F",
-                "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de Listas de Valores"
+                "id": "category-FD6DB7040A084653B0A32804FD5DEFC3",
+                "label": "Configurações de Listas de Valores dos Bancos"
             }
         },
         {
