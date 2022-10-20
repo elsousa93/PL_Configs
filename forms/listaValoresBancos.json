@@ -271,7 +271,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Adiciona opção a Lista de Valores Bancos",
+        "name": "Adiciona opção a Lista de Valores Banco BCP",
         "noPermissionMessage": "",
         "permission": {
             "className": "",
