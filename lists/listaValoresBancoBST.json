@@ -1,13 +1,61 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "listaValoresBancoNVB",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "ID Valor",
+            "name": "id_valor_campo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Zona Balcão",
+            "name": "nivel_1",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Nome Balcão",
+            "name": "nivel_2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Telefone Gestor",
+            "name": "nivel_4",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "E-mail Gestor",
+            "name": "nivel_3",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
