@@ -123,9 +123,9 @@
         }],
         "properties": {
             "comment": "",
-            "id": "campos_lista_valores_bancos",
+            "id": "campos_lista_valores_banco_bst",
             "join": "",
-            "label": "Detalhes dos Valores BCP",
+            "label": "Detalhes dos Valores BST",
             "loadBinder": {
                 "className": "",
                 "properties": {}
