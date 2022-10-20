@@ -123,9 +123,9 @@
         }],
         "properties": {
             "comment": "",
-            "id": "campos_lista_valores_banco_bst",
+            "id": "campos_lista_valores_banco_bic",
             "join": "",
-            "label": "Detalhes dos Valores BST",
+            "label": "Detalhes dos Valores BIC",
             "loadBinder": {
                 "className": "",
                 "properties": {}
