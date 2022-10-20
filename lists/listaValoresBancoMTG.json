@@ -1,0 +1,17 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "",
+        "name": "",
+        "properties": {}
+    },
+    "columns": [],
+    "description": "",
+    "filters": [],
+    "id": "listaValoresBancoMTG",
+    "name": "Lista de Valores Banco MTG",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "rowActions": []
+}
