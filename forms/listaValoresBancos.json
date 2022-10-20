@@ -223,16 +223,6 @@
                         "value": "",
                         "workflowVariable": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "id": "field8",
-                        "label": "Select Box",
-                        "multiple": "False",
-                        "readonly": "False",
-                        "readonlyLabel": "False"
-                    }
                 }
             ],
             "properties": {"width": "100%"}
