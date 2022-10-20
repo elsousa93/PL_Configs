@@ -760,7 +760,7 @@
                         "keyName": "",
                         "label": "Lista de Feriados",
                         "list-customFooter": "",
-                        "list-customHeader": "",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n    $(\"#filters_listasValores input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
                         "list-editLinkLabel": "",
                         "list-editLinkTarget": "",
                         "list-moreActions": [],
