@@ -6,7 +6,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "listaValoresBancoNVB",
+            "formDefId": "listaValoresBancoBST",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
@@ -27,7 +27,7 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_3",
-            "label": "Zona Balcão",
+            "label": "Direção Comercial",
             "name": "nivel_1",
             "sortable": "false"
         },
