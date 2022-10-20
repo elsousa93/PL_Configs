@@ -355,6 +355,324 @@
                         "userviewCacheDuration": "",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id_valor_campo",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "nivel_1",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "nivel_2",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "nivel_3",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
+                                "field": "nivel_4",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n        $(\"label:contains('Import new record only')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar apenas novos dados');\n        $(\"label:contains('Import new record or update existing record')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar novos dados ou atualizar os já existentes');\n        $(\"label:contains('Delete record')\").html('<input type=\"radio\" value=\"DELETE\" name=\"mode\"><i><\/i>Apagar dados');\n        $(\"input[id='submit']\").val(\"IMPORTAR\");\n        $(\"input[id='csvImportFile']\").css('display','none');\n        $(\"div[class='form-cell']\").first().html('<div class=\"form-cell\" style=\"margin-bottom: 10px;\"><label for=\"csvImportFile\" class=\"label upload\">Selecionar Ficheiro<\/label><label class=\"btn btn-primary\" id=\"file-upload-label\">ESCOLHER FICHEIRO<input id=\"csvImportFile\" type=\"file\" style=\"display: none;\" name=\"csvImportFile\"><\/label><label for=\"csvImportFile\" id=\"csvImportFileLabel\" style=\"margin-left: 10px;\"><\/label><\/div>');\n        \n        $(\"input[id='csvImportFile']\").change(function() {\n            \n            const filename = this.files[0].name;\n            \n            document.getElementById(\"csvImportFileLabel\").textContent = filename;\n        });\n        \n    });\n    \n    \n<\/script>",
+                        "customId": "importar_listas_banco_nvb",
+                        "disabledDelete": "",
+                        "formDefId": "listaValoresBancoNVB",
+                        "id": "78F03D18D8604D9C878E9F1C3A9FB700",
+                        "key": "0",
+                        "label": "Importar listas de valores banco NVB",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados editados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "adicionarOpcaoLVBNVB_crud",
+                        "datalistId": "listaValoresBancoNVB",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Valor editado com sucesso!",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "",
+                        "enableOffline": "",
+                        "id": "6EF0B4A026C149978CAA22B4E7C95F69",
+                        "keyName": "",
+                        "label": "Editar listas de valores banco NVB",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n     $(\"#filters_listaValoresBancos input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
+                        "list-deleteButtonLabel": "APAGAR",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "EDITAR",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "NOVO",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id_valor_campo",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "nivel_1",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "nivel_2",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "nivel_3",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
+                                "field": "nivel_4",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n        $(\"label:contains('Import new record only')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar apenas novos dados');\n        $(\"label:contains('Import new record or update existing record')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar novos dados ou atualizar os já existentes');\n        $(\"label:contains('Delete record')\").html('<input type=\"radio\" value=\"DELETE\" name=\"mode\"><i><\/i>Apagar dados');\n        $(\"input[id='submit']\").val(\"IMPORTAR\");\n        $(\"input[id='csvImportFile']\").css('display','none');\n        $(\"div[class='form-cell']\").first().html('<div class=\"form-cell\" style=\"margin-bottom: 10px;\"><label for=\"csvImportFile\" class=\"label upload\">Selecionar Ficheiro<\/label><label class=\"btn btn-primary\" id=\"file-upload-label\">ESCOLHER FICHEIRO<input id=\"csvImportFile\" type=\"file\" style=\"display: none;\" name=\"csvImportFile\"><\/label><label for=\"csvImportFile\" id=\"csvImportFileLabel\" style=\"margin-left: 10px;\"><\/label><\/div>');\n        \n        $(\"input[id='csvImportFile']\").change(function() {\n            \n            const filename = this.files[0].name;\n            \n            document.getElementById(\"csvImportFileLabel\").textContent = filename;\n        });\n        \n    });\n    \n    \n<\/script>",
+                        "customId": "importar_listas_banco_bst",
+                        "disabledDelete": "",
+                        "formDefId": "listaValoresBancoBST",
+                        "id": "7393E04C94E9402BB53376D0E309EB75",
+                        "key": "0",
+                        "label": "Importar listas de valores banco BST",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados editados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "adicionarOpcaoLVBBST_crud",
+                        "datalistId": "listaValoresBancoBST",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Valor editado com sucesso!",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "",
+                        "enableOffline": "",
+                        "id": "169800BF19E9446CB9059E1A6D21CF25",
+                        "keyName": "",
+                        "label": "Editar listas de valores banco BST",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n     $(\"#filters_listaValoresBancos input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
+                        "list-deleteButtonLabel": "APAGAR",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "EDITAR",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "NOVO",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id_valor_campo",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "nivel_1",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "nivel_2",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "nivel_3",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
+                                "field": "nivel_4",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n        $(\"label:contains('Import new record only')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar apenas novos dados');\n        $(\"label:contains('Import new record or update existing record')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar novos dados ou atualizar os já existentes');\n        $(\"label:contains('Delete record')\").html('<input type=\"radio\" value=\"DELETE\" name=\"mode\"><i><\/i>Apagar dados');\n        $(\"input[id='submit']\").val(\"IMPORTAR\");\n        $(\"input[id='csvImportFile']\").css('display','none');\n        $(\"div[class='form-cell']\").first().html('<div class=\"form-cell\" style=\"margin-bottom: 10px;\"><label for=\"csvImportFile\" class=\"label upload\">Selecionar Ficheiro<\/label><label class=\"btn btn-primary\" id=\"file-upload-label\">ESCOLHER FICHEIRO<input id=\"csvImportFile\" type=\"file\" style=\"display: none;\" name=\"csvImportFile\"><\/label><label for=\"csvImportFile\" id=\"csvImportFileLabel\" style=\"margin-left: 10px;\"><\/label><\/div>');\n        \n        $(\"input[id='csvImportFile']\").change(function() {\n            \n            const filename = this.files[0].name;\n            \n            document.getElementById(\"csvImportFileLabel\").textContent = filename;\n        });\n        \n    });\n    \n    \n<\/script>",
+                        "customId": "importar_listas_banco_bic",
+                        "disabledDelete": "",
+                        "formDefId": "listaValoresBancoBIC",
+                        "id": "FE5E45FA08A84449A39A2297E97A866B",
+                        "key": "0",
+                        "label": "Importar listas de valores banco BIC",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados editados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "adicionarOpcaoLVBBIC_crud",
+                        "datalistId": "listaValoresBancoBIC",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Valor editado com sucesso!",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "",
+                        "enableOffline": "",
+                        "id": "8E1314EC9EB74EF1B7F27AF4B1E4D241",
+                        "keyName": "",
+                        "label": "Editar listas de valores banco BIC",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n     $(\"#filters_listaValoresBancos input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
+                        "list-deleteButtonLabel": "APAGAR",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "EDITAR",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "NOVO",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
