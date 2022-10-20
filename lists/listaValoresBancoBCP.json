@@ -74,14 +74,30 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [],
+    "hidePageSize": "",
     "id": "listaValoresBancoBCP",
     "name": "Lista de Valores Banco BCP",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
