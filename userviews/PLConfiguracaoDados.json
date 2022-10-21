@@ -730,7 +730,7 @@
                         "add-afterSaved": "list",
                         "add-cancelButtonLabel": "",
                         "add-customFooter": "",
-                        "add-customHeader": "",
+                        "add-customHeader": "<script>\n    $(document).ready(function(){\n        $(\"input#submit\").val(\"GRAVAR\");\n        $(\"button#cancel\").html(\"CANCELAR\")\n    });\n    \n<\/script>",
                         "add-messageShowAfterComplete": "",
                         "add-saveButtonLabel": "",
                         "addFormId": "feriados",
