@@ -744,7 +744,7 @@
                         "edit-allowRecordTraveling": "",
                         "edit-backButtonLabel": "",
                         "edit-customFooter": "",
-                        "edit-customHeader": "",
+                        "edit-customHeader": "<script>\n    $(document).ready(function(){\n        $(\"input#submit\").val(\"GRAVAR\");\n        $(\"button#cancel\").html(\"VOLTAR ATRÁS\")\n    });\n    \n<\/script>",
                         "edit-firstButtonLabel": "",
                         "edit-lastButtonLabel": "",
                         "edit-messageShowAfterComplete": "",
