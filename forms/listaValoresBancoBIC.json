@@ -12,6 +12,10 @@
                         "id": "id_valor_campo",
                         "label": "ID Valor",
                         "maxlength": "",
+                        "permission_rules": {
+                            "e735ffb5-4e89-f6c2-713c-d78e450dde57": {},
+                            "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0": {}
+                        },
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -38,6 +42,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "e735ffb5-4e89-f6c2-713c-d78e450dde57": {},
+                            "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -60,6 +68,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "e735ffb5-4e89-f6c2-713c-d78e450dde57": {},
+                            "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -84,6 +96,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "e735ffb5-4e89-f6c2-713c-d78e450dde57": {},
+                            "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -106,6 +122,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "e735ffb5-4e89-f6c2-713c-d78e450dde57": {},
+                            "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -134,8 +154,12 @@
                 "className": "",
                 "properties": {}
             },
-            "permissionHidden": "",
+            "permissionHidden": "true",
             "permissionReadonly": "",
+            "permission_rules": {
+                "e735ffb5-4e89-f6c2-713c-d78e450dde57": {},
+                "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0": {}
+            },
             "readonly": "",
             "readonlyLabel": "",
             "regex": "",
@@ -153,6 +177,30 @@
         "id": "listaValoresBancoBIC",
         "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "name": "Adiciona opção a Lista de Valores Banco BIC",
+        "permission_rules": [
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "e735ffb5-4e89-f6c2-713c-d78e450dde57",
+                "permission_name": "Informática"
+            },
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "ff76d4b0-711f-1ddf-8e81-6b1a7221bac0",
+                "permission_name": "DEV"
+            }
+        ],
         "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "tableName": "list_values_bic"
     }
