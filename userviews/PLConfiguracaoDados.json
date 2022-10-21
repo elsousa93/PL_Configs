@@ -122,8 +122,17 @@
                 }
             ],
             "properties": {
+                "comment": "",
+                "hide": "",
                 "id": "category-DEF85C2F7AC044BFB4938FC05CFC1D0F",
-                "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de Listas de Valores"
+                "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de Listas de Valores",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV;PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                }
             }
         },
         {
@@ -775,8 +784,17 @@
                 }
             ],
             "properties": {
+                "comment": "",
+                "hide": "",
                 "id": "category-1DAEFB9141AE4FB98E3F08A8F7F280B2",
-                "label": "Configuração de Feriados"
+                "label": "Configuração de Feriados",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV;PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                }
             }
         },
         {
@@ -831,8 +849,17 @@
                 }
             }],
             "properties": {
+                "comment": "",
+                "hide": "",
                 "id": "category-C5D67951CE90465D9E341C2BDEA28178",
-                "label": "Configurar SLA"
+                "label": "Configurar SLA",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV;PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                }
             }
         }
     ],
