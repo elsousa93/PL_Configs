@@ -12,6 +12,10 @@
                         "id": "id_valor",
                         "label": "ID do valor",
                         "maxlength": "",
+                        "permission_rules": {
+                            "499ad796-2a38-0344-c702-f59c491eb67d": {},
+                            "6f81d539-3881-3c11-577d-10539d97ed83": {}
+                        },
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -48,6 +52,10 @@
                                 "useAjax": ""
                             }
                         },
+                        "permission_rules": {
+                            "499ad796-2a38-0344-c702-f59c491eb67d": {},
+                            "6f81d539-3881-3c11-577d-10539d97ed83": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -66,6 +74,10 @@
                         "id": "value",
                         "label": "Value",
                         "maxlength": "",
+                        "permission_rules": {
+                            "499ad796-2a38-0344-c702-f59c491eb67d": {},
+                            "6f81d539-3881-3c11-577d-10539d97ed83": {}
+                        },
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -87,6 +99,10 @@
                         "id": "label",
                         "label": "Label",
                         "maxlength": "",
+                        "permission_rules": {
+                            "499ad796-2a38-0344-c702-f59c491eb67d": {},
+                            "6f81d539-3881-3c11-577d-10539d97ed83": {}
+                        },
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -117,8 +133,12 @@
                 "className": "",
                 "properties": {}
             },
-            "permissionHidden": "",
+            "permissionHidden": "true",
             "permissionReadonly": "",
+            "permission_rules": {
+                "499ad796-2a38-0344-c702-f59c491eb67d": {},
+                "6f81d539-3881-3c11-577d-10539d97ed83": {}
+            },
             "readonly": "",
             "readonlyLabel": "",
             "regex": "",
@@ -144,6 +164,30 @@
             "className": "",
             "properties": {}
         },
+        "permission_rules": [
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "499ad796-2a38-0344-c702-f59c491eb67d",
+                "permission_name": "Informática"
+            },
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "6f81d539-3881-3c11-577d-10539d97ed83",
+                "permission_name": "DEV"
+            }
+        ],
         "postProcessor": {
             "className": "",
             "properties": {}
