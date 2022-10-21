@@ -12,6 +12,10 @@
                         "id": "id_valor_campo",
                         "label": "ID Valor",
                         "maxlength": "",
+                        "permission_rules": {
+                            "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d": {},
+                            "dc51bccf-b6f4-256c-c264-9cf6938eada8": {}
+                        },
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -38,6 +42,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d": {},
+                            "dc51bccf-b6f4-256c-c264-9cf6938eada8": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -60,6 +68,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d": {},
+                            "dc51bccf-b6f4-256c-c264-9cf6938eada8": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -84,6 +96,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d": {},
+                            "dc51bccf-b6f4-256c-c264-9cf6938eada8": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -106,6 +122,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d": {},
+                            "dc51bccf-b6f4-256c-c264-9cf6938eada8": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -134,8 +154,12 @@
                 "className": "",
                 "properties": {}
             },
-            "permissionHidden": "",
+            "permissionHidden": "true",
             "permissionReadonly": "",
+            "permission_rules": {
+                "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d": {},
+                "dc51bccf-b6f4-256c-c264-9cf6938eada8": {}
+            },
             "readonly": "",
             "readonlyLabel": "",
             "regex": "",
@@ -153,6 +177,30 @@
         "id": "listaValoresBancoBST",
         "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "name": "Adiciona opção a Lista de Valores Banco BST",
+        "permission_rules": [
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "b7d504e1-bef6-160b-d2ed-19dbfaea9a7d",
+                "permission_name": "Informática"
+            },
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "dc51bccf-b6f4-256c-c264-9cf6938eada8",
+                "permission_name": "DEV"
+            }
+        ],
         "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "tableName": "list_values_bst"
     }
