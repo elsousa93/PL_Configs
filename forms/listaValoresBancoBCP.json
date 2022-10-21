@@ -12,6 +12,10 @@
                         "id": "id_valor_campo",
                         "label": "ID Valor",
                         "maxlength": "",
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
+                        },
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -38,6 +42,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -60,6 +68,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -84,6 +96,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -106,6 +122,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -130,6 +150,10 @@
                             "className": "",
                             "properties": {}
                         },
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
@@ -152,6 +176,10 @@
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "permission_rules": {
+                            "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                            "424390b1-f875-0af5-667a-15a0ac6b3061": {}
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -182,6 +210,10 @@
             },
             "permissionHidden": "",
             "permissionReadonly": "",
+            "permission_rules": {
+                "410eefac-0406-5315-dcc6-272ec4afce0f": {},
+                "424390b1-f875-0af5-667a-15a0ac6b3061": {}
+            },
             "readonly": "",
             "readonlyLabel": "",
             "regex": "",
@@ -207,6 +239,30 @@
             "className": "",
             "properties": {}
         },
+        "permission_rules": [
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "410eefac-0406-5315-dcc6-272ec4afce0f",
+                "permission_name": "Informática"
+            },
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_DEV",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "424390b1-f875-0af5-667a-15a0ac6b3061",
+                "permission_name": "DEV"
+            }
+        ],
         "postProcessor": {
             "className": "",
             "properties": {}
