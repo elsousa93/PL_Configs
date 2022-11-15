@@ -685,8 +685,17 @@
                 }
             ],
             "properties": {
+                "comment": "",
+                "hide": "",
                 "id": "category-FD6DB7040A084653B0A32804FD5DEFC3",
-                "label": "Configurações de Listas de Valores dos Bancos"
+                "label": "Configurações de Listas de Valores dos Bancos",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                }
             }
         },
         {
