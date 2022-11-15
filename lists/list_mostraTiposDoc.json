@@ -1,0 +1,95 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "mostraTiposDoc"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "id": "column_0",
+            "label": "id",
+            "name": "id"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "nome_campo = 'c_tipo_processo'",
+                            "formDefId": "adicionaOpcaoListaValores",
+                            "groupingColumn": "",
+                            "idColumn": "value",
+                            "labelColumn": "label",
+                            "useAjax": ""
+                        }
+                    }
+                }
+            },
+            "id": "column_1",
+            "label": "Mostra",
+            "name": "mostra"
+        },
+        {
+            "id": "column_2",
+            "label": "Tipo de Documento",
+            "name": "tipo_documento"
+        }
+    ],
+    "filters": [
+        {
+            "id": "filter_0",
+            "label": "id",
+            "name": "id"
+        },
+        {
+            "id": "filter_1",
+            "label": "Mostra",
+            "name": "mostra",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "nome_campo = 'c_tipo_processo'",
+                            "formDefId": "adicionaOpcaoListaValores",
+                            "groupingColumn": "",
+                            "idColumn": "value",
+                            "labelColumn": "label",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Tipo de Documento",
+            "name": "tipo_documento"
+        }
+    ],
+    "id": "list_mostraTiposDoc",
+    "name": "List - Mostra Tipos de Documento",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
