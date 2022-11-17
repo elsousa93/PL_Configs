@@ -802,7 +802,7 @@
                 "permission": {
                     "className": "org.joget.apps.userview.lib.DepartmentPermission",
                     "properties": {
-                        "allowedDeptIds": "PL_INT_INF",
+                        "allowedDeptIds": "PL_DEV;PL_INT_INF",
                         "orgId": "PL"
                     }
                 }
