@@ -46,6 +46,14 @@
             "label": "Value",
             "name": "value",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Grouping",
+            "name": "grouping",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
