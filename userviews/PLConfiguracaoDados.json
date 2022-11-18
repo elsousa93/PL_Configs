@@ -204,11 +204,6 @@
                         "checkUTF8": "",
                         "columnMapping": [
                             {
-                                "col": "0",
-                                "field": "id",
-                                "formatted": "false"
-                            },
-                            {
                                 "col": "1",
                                 "field": "tipo_documento",
                                 "formatted": "false"
@@ -228,7 +223,7 @@
                         "disabledDelete": "",
                         "formDefId": "mostraTiposDoc",
                         "id": "D7FDEC2D27FB42C2B17217CBFEF1B13D",
-                        "key": "0",
+                        "key": "",
                         "label": "Importa Tipos Documento",
                         "messageOnError": "",
                         "messageOnSuccess": "",
