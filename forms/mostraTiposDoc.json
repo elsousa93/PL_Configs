@@ -6,18 +6,36 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "encryption": "",
-                        "id": "id",
-                        "label": "id",
-                        "maxlength": "",
-                        "placeholder": "",
+                        "controlField": "",
+                        "id": "form",
+                        "label": "Formulário",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Interveniente",
+                                "value": "interveniente"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Imóvel",
+                                "value": "imovel"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
-                        "storeNumeric": "",
-                        "style": "",
                         "validator": {
                             "className": "",
                             "properties": {}
