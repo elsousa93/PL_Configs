@@ -204,6 +204,11 @@
                         "checkUTF8": "",
                         "columnMapping": [
                             {
+                                "col": "0",
+                                "field": "form",
+                                "formatted": "false"
+                            },
+                            {
                                 "col": "1",
                                 "field": "tipo_documento",
                                 "formatted": "false"
