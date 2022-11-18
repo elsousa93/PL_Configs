@@ -45,6 +45,11 @@
             "width": ""
         },
         {
+            "id": "column_2",
+            "label": "Tipo de Documento",
+            "name": "tipo_documento"
+        },
+        {
             "action": {
                 "className": "",
                 "properties": {}
@@ -80,11 +85,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "id": "column_2",
-            "label": "Tipo de Documento",
-            "name": "tipo_documento"
         }
     ],
     "considerFilterWhenGetTotal": "",
