@@ -8,9 +8,12 @@
     "checkboxPosition": "left",
     "columns": [
         {
-            "id": "column_0",
-            "label": "id",
-            "name": "id"
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Formulário",
+            "name": "form",
+            "sortable": "false"
         },
         {
             "action": {
