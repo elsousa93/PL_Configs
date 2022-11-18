@@ -91,8 +91,12 @@
     "filters": [
         {
             "id": "filter_0",
-            "label": "id",
-            "name": "id"
+            "label": "Formulário",
+            "name": "form",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
         },
         {
             "id": "filter_1",
