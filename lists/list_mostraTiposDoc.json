@@ -8,12 +8,49 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "label": "Imóvel",
+                            "value": "imovel"
+                        },
+                        {
+                            "label": "Interveniente",
+                            "value": "interveniente"
+                        },
+                        {
+                            "label": "Processual",
+                            "value": "processual"
+                        },
+                        {
+                            "label": "Análise Bancária",
+                            "value": "analiseBancaria"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "Checklist",
             "name": "checklist",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "id": "column_2",
@@ -60,6 +97,49 @@
     ],
     "considerFilterWhenGetTotal": "",
     "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-5358010-fn_checklist",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Checklist",
+            "name": "checklist",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Imóvel",
+                            "value": "imovel"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Interveniente",
+                            "value": "interveniente"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Processual",
+                            "value": "processual"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Análise Bancária",
+                            "value": "analiseBancaria"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "size": ""
+                }
+            }
+        },
         {
             "datalist_type": "filter",
             "filterParamName": "d-5358010-fn_mostra",
