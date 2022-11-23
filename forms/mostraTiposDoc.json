@@ -9,8 +9,8 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "id": "form",
-                        "label": "Formulário",
+                        "id": "checklist",
+                        "label": "Checklist",
                         "multiple": "",
                         "options": [
                             {
@@ -32,6 +32,11 @@
                                 "grouping": "",
                                 "label": "Análise Bancária",
                                 "value": "analiseBancaria"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Processual",
+                                "value": "processual"
                             }
                         ],
                         "optionsBinder": {
