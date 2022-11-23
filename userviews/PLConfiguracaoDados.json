@@ -205,7 +205,7 @@
                         "columnMapping": [
                             {
                                 "col": "0",
-                                "field": "form",
+                                "field": "checklist",
                                 "formatted": "false"
                             },
                             {
