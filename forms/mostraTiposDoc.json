@@ -27,6 +27,11 @@
                                 "grouping": "",
                                 "label": "Imóvel",
                                 "value": "imovel"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Análise Bancária",
+                                "value": "analiseBancaria"
                             }
                         ],
                         "optionsBinder": {
