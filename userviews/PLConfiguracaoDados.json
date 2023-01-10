@@ -976,7 +976,7 @@
                 "comment": "",
                 "hide": "",
                 "id": "category-C5D67951CE90465D9E341C2BDEA28178",
-                "label": "Configurar SLA",
+                "label": "Configuração de SLA",
                 "permission": {
                     "className": "org.joget.apps.userview.lib.DepartmentPermission",
                     "properties": {
