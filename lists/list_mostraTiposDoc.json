@@ -96,6 +96,8 @@
         }
     ],
     "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
     "filters": [
         {
             "datalist_type": "filter",
@@ -178,13 +180,28 @@
             "name": "tipo_documento"
         }
     ],
+    "hidePageSize": "",
     "id": "list_mostraTiposDoc",
     "name": "List - Mostra Tipos de Documento",
     "order": "",
     "orderBy": "",
-    "pageSize": 0,
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "5,10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
