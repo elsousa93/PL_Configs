@@ -126,6 +126,15 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "botoes",
+                        "label": "",
+                        "value": "<script type=\"text/javascript\">\r\n    $(document).ready( function(){\r\n        /*Botões*/\r\n        $(\"#saveAsDraft\").val(\"GUARDAR\");\r\n        $(\"#cancel\").text(\"CANCELAR\"); \r\n    });\r\n<\/script>"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
