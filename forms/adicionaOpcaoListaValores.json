@@ -109,10 +109,31 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "grouping",
-                        "label": "Grouping",
+                        "id": "banco",
+                        "label": "Banco",
                         "maxlength": "",
                         "permission_rules": {},
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "servico",
+                        "label": "Servico",
+                        "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
