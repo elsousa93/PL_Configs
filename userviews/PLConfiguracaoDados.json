@@ -101,8 +101,13 @@
                             },
                             {
                                 "col": "4",
-                                "field": "grouping",
+                                "field": "banco",
                                 "formatted": "true"
+                            },
+                            {
+                                "col": "5",
+                                "field": "servico",
+                                "formatted": "false"
                             }
                         ],
                         "corfirmation": "",
