@@ -107,7 +107,12 @@
                             {
                                 "col": "5",
                                 "field": "servico",
-                                "formatted": "false"
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "6",
+                                "field": "grouping",
+                                "formatted": "true"
                             }
                         ],
                         "corfirmation": "",
