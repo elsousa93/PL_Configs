@@ -62,6 +62,14 @@
             "label": "Servico",
             "name": "servico",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Grouping",
+            "name": "grouping",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
