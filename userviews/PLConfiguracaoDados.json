@@ -995,6 +995,111 @@
                     }
                 }
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "Valor adicionado com sucesso!",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "distritosConcelhos",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "",
+                        "datalistId": "listDistritosConcelhos",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Valor editado com sucesso!",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "distritosConcelhos",
+                        "enableOffline": "",
+                        "id": "1D994683B8E7430DAE5762C140F08F48",
+                        "keyName": "",
+                        "label": "Editar listas de Distritos e Concelhos",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "<script>\n$(document).ready(function(){\n    //$(\"#filters_listasValores input[type = submit]\").val(\"FILTRAR\");\n});\n    \n<\/script>",
+                        "list-deleteButtonLabel": "APAGAR",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "EDITAR",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "NOVO",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "id",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "distrito",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "concelho",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n        $(\"label:contains('Import new record only')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar apenas novos dados');\n        $(\"label:contains('Import new record or update existing record')\").html('<input type=\"radio\" value=\"NEW &amp; UPDATE\" name=\"mode\" checked=\"\"><i><\/i>Importar novos dados ou atualizar os já existentes');\n        $(\"label:contains('Delete record')\").html('<input type=\"radio\" value=\"DELETE\" name=\"mode\"><i><\/i>Apagar dados');\n        $(\"input[id='submit']\").val(\"IMPORTAR\");\n        $(\"input[id='csvImportFile']\").css('display','none');\n        $(\"div[class='form-cell']\").first().html('<div class=\"form-cell\" style=\"margin-bottom: 10px;\"><label for=\"csvImportFile\" class=\"label upload\">Selecionar Ficheiro<\/label><label class=\"btn btn-primary\" id=\"file-upload-label\">ESCOLHER FICHEIRO<input id=\"csvImportFile\" type=\"file\" style=\"display: none;\" name=\"csvImportFile\"><\/label><label for=\"csvImportFile\" id=\"csvImportFileLabel\" style=\"margin-left: 10px;\"><\/label><\/div>');\n        \n        $(\"input[id='csvImportFile']\").change(function() {\n            \n            const filename = this.files[0].name;\n            \n            document.getElementById(\"csvImportFileLabel\").textContent = filename;\n        });\n        \n    });\n    \n    \n<\/script>",
+                        "customId": "",
+                        "disabledDelete": "",
+                        "formDefId": "distritosConcelhos",
+                        "id": "F2231BB8286248E3BD630B0D5D1F2ECE",
+                        "key": "0",
+                        "label": "Importar listas de Distritos e Concelhos",
+                        "messageOnError": "Ocorreu um erro no upload do ficheiro.",
+                        "messageOnSuccess": "Dados editados com sucesso!",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-16BB508344A844BFA24CC9730DAC76E6",
+                "label": "Distritos e Concelhos"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.Userview",
