@@ -731,6 +731,11 @@
                                 "col": "4",
                                 "field": "nivel_4",
                                 "formatted": "true"
+                            },
+                            {
+                                "col": "5",
+                                "field": "nivel_5",
+                                "formatted": "false"
                             }
                         ],
                         "corfirmation": "",
