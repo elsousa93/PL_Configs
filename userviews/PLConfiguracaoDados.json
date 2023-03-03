@@ -1110,7 +1110,7 @@
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "",
         "id": "PLConfiguracaoDados",
         "logoutText": "Logout",
         "name": "Configuração de dados",
