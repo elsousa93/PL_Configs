@@ -1150,7 +1150,7 @@
                 "homeUrl": "",
                 "horizontal_menu": "true",
                 "inbox": "",
-                "js": "",
+                "js": "//Alterar mensagens menu drop-down utilizador\n$(document).ready(function(){\n\n    var HTMLretirado_perfil = $(\"div.header-nav li.user-link a[href*=ja_profile]\").html();\n    var novoHTML_perfil = (HTMLretirado_perfil|| \"\").replace(\"Profile\", \"Perfil\");\n    $(\"div.header-nav li.user-link a[href*=ja_profile]\").html(novoHTML_perfil);\n    \n    var HTMLretirado_logout = $(\"div.header-nav li.user-link a[href*=j_spring_security_logout]\").html();\n    var novoHTML_logout = (HTMLretirado_logout|| \"\").replace(\"Logout\", \"Sair\");\n    $(\"div.header-nav li.user-link a[href*=j_spring_security_logout]\").html(novoHTML_logout);\n\n});",
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
