@@ -1156,7 +1156,7 @@
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
                 "menuFontColor": "WHITE",
                 "primaryColor": "custom",
-                "profile": "",
+                "profile": "true",
                 "removeAssignmentTitle": "",
                 "shortcut": [],
                 "shortcutLinkLabel": "",
