@@ -35,6 +35,10 @@
                         {
                             "label": "Análise Bancária",
                             "value": "analiseBancaria"
+                        },
+                        {
+                            "label": "Acompanhamento de Outorgas",
+                            "value": "acompanhamento_outorgas"
                         }
                     ],
                     "optionsBinder": {
@@ -132,6 +136,11 @@
                             "grouping": "",
                             "label": "Análise Bancária",
                             "value": "analiseBancaria"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Acompanhamento de Outorgas",
+                            "value": "acompanhamento_outorgas"
                         }
                     ],
                     "optionsBinder": {
