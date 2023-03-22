@@ -37,6 +37,11 @@
                                 "grouping": "",
                                 "label": "Processual",
                                 "value": "processual"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Acompanhamento de Outorgas",
+                                "value": "acompanhamento_outorgas"
                             }
                         ],
                         "optionsBinder": {
