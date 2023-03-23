@@ -97,14 +97,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Mostra",
-            "name": "mostra",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
