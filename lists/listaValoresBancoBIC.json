@@ -54,6 +54,14 @@
             "label": "Telefone Gestor",
             "name": "nivel_4",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "E-mail Agência",
+            "name": "nivel_5",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
