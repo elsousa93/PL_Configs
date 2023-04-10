@@ -38,7 +38,11 @@
                         },
                         {
                             "label": "Acompanhamento de Outorgas",
-                            "value": "acompanhamento_outorgas"
+                            "value": "acompanhamento_outorgas_init"
+                        },
+                        {
+                            "label": "Acompanhamento de Outorgas",
+                            "value": "acompanhamento_outorgas_final"
                         }
                     ],
                     "optionsBinder": {
@@ -140,7 +144,12 @@
                         {
                             "grouping": "",
                             "label": "Acompanhamento de Outorgas",
-                            "value": "acompanhamento_outorgas"
+                            "value": "acompanhamento_outorgas_init"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Acompanhamento de Outorgas",
+                            "value": "acompanhamento_outorgas_final"
                         }
                     ],
                     "optionsBinder": {
