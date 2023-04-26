@@ -117,6 +117,49 @@
     "filters": [
         {
             "datalist_type": "filter",
+            "filterParamName": "d-5358010-fn_servico",
+            "hidden": "",
+            "id": "filter_3",
+            "label": "Serviço",
+            "name": "servico",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Crédito Habitação",
+                            "value": "CH"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Hipotecas",
+                            "value": "HIP"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Leasing",
+                            "value": "LEA"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Acompanhamento de Outorgas",
+                            "value": "AO"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
             "filterParamName": "d-5358010-fn_checklist",
             "hidden": "",
             "id": "filter_0",
