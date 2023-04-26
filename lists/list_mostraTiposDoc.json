@@ -168,39 +168,39 @@
             "type": {
                 "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
                 "properties": {
-                    "controlField": "",
+                    "controlField": "servico",
                     "defaultValue": "",
                     "multiple": "",
                     "options": [
                         {
-                            "grouping": "",
+                            "grouping": "CH",
                             "label": "Imóvel",
                             "value": "imovel"
                         },
                         {
-                            "grouping": "",
+                            "grouping": "CH",
                             "label": "Interveniente",
                             "value": "interveniente"
                         },
                         {
-                            "grouping": "",
+                            "grouping": "CH",
                             "label": "Processual",
                             "value": "processual"
                         },
                         {
-                            "grouping": "",
-                            "label": "Análise Bancária",
-                            "value": "analiseBancaria"
+                            "grouping": "CH",
+                            "label": "Análise Bancária BIC",
+                            "value": "analiseBancariaBIC"
                         },
                         {
-                            "grouping": "",
-                            "label": "Acompanhamento de Outorgas",
-                            "value": "acompanhamento_outorgas_init"
+                            "grouping": "AO",
+                            "label": "Inicial",
+                            "value": "inicial"
                         },
                         {
-                            "grouping": "",
-                            "label": "Acompanhamento de Outorgas",
-                            "value": "acompanhamento_outorgas_final"
+                            "grouping": "AO",
+                            "label": "Final",
+                            "value": "final"
                         }
                     ],
                     "optionsBinder": {
