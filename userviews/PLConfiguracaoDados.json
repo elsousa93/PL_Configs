@@ -220,11 +220,16 @@
                             },
                             {
                                 "col": "1",
-                                "field": "tipo_documento",
+                                "field": "servico",
                                 "formatted": "false"
                             },
                             {
                                 "col": "2",
+                                "field": "tipo_documento",
+                                "formatted": "false"
+                            },
+                            {
+                                "col": "3",
                                 "field": "mostra",
                                 "formatted": "false"
                             }
