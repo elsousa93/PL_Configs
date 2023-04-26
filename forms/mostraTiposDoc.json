@@ -9,6 +9,55 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
+                        "id": "servico",
+                        "label": "Serviço",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Crédito Habitação",
+                                "value": "CH"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Acompanhamento de Outorgas",
+                                "value": "AO"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Hipotecas",
+                                "value": "HIP"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Leasing",
+                                "value": "LEA"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "servico",
                         "id": "checklist",
                         "label": "Checklist",
                         "multiple": "",
@@ -19,29 +68,39 @@
                                 "value": ""
                             },
                             {
-                                "grouping": "",
+                                "grouping": "CH",
                                 "label": "Interveniente",
                                 "value": "interveniente"
                             },
                             {
-                                "grouping": "",
+                                "grouping": "CH",
                                 "label": "Imóvel",
                                 "value": "imovel"
                             },
                             {
-                                "grouping": "",
-                                "label": "Análise Bancária",
-                                "value": "analiseBancaria"
+                                "grouping": "CH",
+                                "label": "Análise Bancária BIC",
+                                "value": "analiseBancariaBIC"
                             },
                             {
-                                "grouping": "",
+                                "grouping": "CH",
                                 "label": "Processual",
                                 "value": "processual"
                             },
                             {
-                                "grouping": "",
-                                "label": "Acompanhamento de Outorgas",
-                                "value": "acompanhamento_outorgas"
+                                "grouping": "AO",
+                                "label": "Inicial",
+                                "value": "inicial"
+                            },
+                            {
+                                "grouping": "AO",
+                                "label": "Final",
+                                "value": "final"
+                            },
+                            {
+                                "grouping": "HIP",
+                                "label": "Geral",
+                                "value": "geral"
                             }
                         ],
                         "optionsBinder": {
