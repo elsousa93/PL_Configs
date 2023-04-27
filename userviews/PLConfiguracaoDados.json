@@ -1110,6 +1110,59 @@
                 "id": "category-16BB508344A844BFA24CC9730DAC76E6",
                 "label": "Distritos e Concelhos"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                "properties": {
+                    "checkUTF8": "",
+                    "columnMapping": [
+                        {
+                            "col": "1",
+                            "field": "tipo_processo",
+                            "formatted": "false"
+                        },
+                        {
+                            "col": "2",
+                            "field": "servico",
+                            "formatted": "false"
+                        },
+                        {
+                            "col": "3",
+                            "field": "banco",
+                            "formatted": "false"
+                        },
+                        {
+                            "col": "4",
+                            "field": "agenda",
+                            "formatted": "false"
+                        }
+                    ],
+                    "corfirmation": "",
+                    "customCsvDelimiter": "",
+                    "customCsvQuote": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "disabledDelete": "",
+                    "formDefId": "mapeamentoTipoProcessoAgenda",
+                    "id": "DE5A48E116F440FB814A804ED4AFA80F",
+                    "key": "0",
+                    "label": "Importar Mapeamento",
+                    "messageOnError": "",
+                    "messageOnSuccess": "",
+                    "redirectUrl": "",
+                    "rowStart": "1",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "userviewKey": ""
+                }
+            }],
+            "properties": {
+                "id": "category-FF181AC6898148DB81AEBE64D8FDF236",
+                "label": "Mapeamento Agenda"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.Userview",
