@@ -74,38 +74,49 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-2611008-fn_nome_campo",
-        "hidden": "",
-        "id": "filter_0",
-        "label": "Nome do campo",
-        "name": "nome_campo",
-        "type": {
-            "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-            "properties": {
-                "controlField": "",
-                "defaultValue": "",
-                "multiple": "",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "adicionaOpcaoListaValores",
-                        "groupingColumn": "",
-                        "idColumn": "nome_campo",
-                        "labelColumn": "nome_campo",
-                        "useAjax": ""
-                    }
-                },
-                "size": ""
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-2611008-fn_nome_campo",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Nome do campo",
+            "name": "nome_campo",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "adicionaOpcaoListaValores",
+                            "groupingColumn": "",
+                            "idColumn": "nome_campo",
+                            "labelColumn": "nome_campo",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "Servico",
+            "name": "servico",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         }
-    }],
+    ],
     "id": "listasValores",
     "name": "Listas de Valores",
     "order": "",
