@@ -241,6 +241,11 @@
                             "grouping": "AO",
                             "label": "Final",
                             "value": "final"
+                        },
+                        {
+                            "grouping": "HIP",
+                            "label": "Interveniente",
+                            "value": "interveniente"
                         }
                     ],
                     "optionsBinder": {
