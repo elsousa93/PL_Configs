@@ -188,6 +188,11 @@
                             "grouping": "",
                             "label": "Acompanhamento de Outorgas",
                             "value": "AO"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Registos",
+                            "value": "REG"
                         }
                     ],
                     "optionsBinder": {
