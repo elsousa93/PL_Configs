@@ -246,6 +246,16 @@
                             "grouping": "HIP",
                             "label": "Interveniente",
                             "value": "interveniente"
+                        },
+                        {
+                            "grouping": "HIP",
+                            "label": "Imóvel",
+                            "value": "Imóvel"
+                        },
+                        {
+                            "grouping": "HIP",
+                            "label": "geral",
+                            "value": "geral"
                         }
                     ],
                     "optionsBinder": {
