@@ -37,6 +37,11 @@
                                 "grouping": "",
                                 "label": "Leasing",
                                 "value": "LEA"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Registos",
+                                "value": "REG"
                             }
                         ],
                         "optionsBinder": {
