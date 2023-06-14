@@ -82,6 +82,14 @@
             "name": "tipo_documento"
         },
         {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Id Tipo de Documento",
+            "name": "id_tipo_documento",
+            "sortable": "false"
+        },
+        {
             "action": {
                 "className": "",
                 "properties": {}
